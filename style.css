@@ -1,0 +1,213 @@
+@import url('https:/fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2{
+    color: #333;
+    font-size: 3.6em;
+    line-height: 1.4em;
+    font-weight: 450;
+}
+.content .textBox h2 span{
+    color: #28B463;
+    font-size: 1.1em;
+    font-weight: 900;
+}
+.content .textbox p{
+    color: #333;
+}
+.content .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #28B463;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgbox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content .imgbox img{
+    max-width: 440px;
+}
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5%;
+}
+.thumb li:hover{
+    transform: translateY(-15px) !important;
+}
+.thumb li img{
+    max-width: 80px;
+
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(1000px at right 1050px);
+}
+/*-----------------------services-----------------------*/
+section services{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+#services{
+    padding: 80px 0;
+}
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+}
+.heading span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+.heading h1{
+    font-size: 2rem;
+    color: #28B463;
+}
+.donate-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+.donate-container .box{
+    flex: 1 1 10rem;
+    background: #017143;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+}
+.donate-container .box .box-img{
+    width: 120px;
+    height: 150px;
+    margin-top: -100px;
+
+}
+.donate-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.box a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;  
+    background: #ebdbc8;
+    color: #28B463;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+/*
+.box .btn{
+    border: 2px solid #ebdbc8;
+    color: #ebdbc8;
+}
+.box .btn:hover{
+    background: #ebdbc8;
+}
+
+
+
+
+/*sssssssss
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 services">
+                        <img src="arrow5.png" class="service-img">
+                        <h4>Start with the basics</h4>
+                        <p>Kick things off with your name and location.</p>
+                    </div>
+                </div>
+            </div>

@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Go Fund Me</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section>
+            <div class = "circle">
+
+            </div>
+            <header>
+                <a href="#" ><img src="gofundme1.png" class="logo"></a>
+                <ul>
+                    <li><a href="">Search</a></li>
+                    <li><a href="">For Individuals</a></li>
+                    <li><a href="">For Charities</a></li> 
+                    <li><a href="">How it works</a></li>
+                    <li><a href="">Sign in</a></li>
+                    <li><a href="#"><b>Start a GoFundMe</b></a></li>
+                </ul>
+            </header>
+            <div class = "content">
+                <div class = "textBox">
+                    <h2>Your home for help<br>Start a <span>GoFundMe</span></h2>
+                    <p>Fundraising on GoFundMe takes just a few minutes!</p>
+                    <a href="#">Learn More</a>
+                    </div>
+                    <div class = "imgBox">
+                        <img src="vetern2.png" class ="veterns">
+                    </div>        
+                </div>
+            </div>
+            <ul class = "thumb">
+                <li><img src="veternSmall.png" onclick="imgSlider('vetern2.png'); changeCircleColor('#017143')"></li>
+                <li><img src="southSmall.png" onclick="imgSlider('SOUTH.png'); changeCircleColor('#CB4335')"></li>
+                <li><img src="ukraineSmall.png" onclick="imgSlider('ukrainE.png'); changeCircleColor('#F1C40F')"></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.veterns').src = anything;
+            }
+            function changeCircleColor(color){
+                const circle = document.querySelector('.circle');
+                circle.style.background = color;
+            }
+        </script>
+<!-----------------------------------------------Services Section---------------------------------------------------------->
+        <section class="shop" id="services">
+            <div class="heading">
+                <span>Make your impact</span>
+                <h1>Fundraise for...</h1>
+            </div>
+            <div class="shop-container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="arrow5.png" alt="">
+                    </div>
+                    <h2 style = "color:white;">Fundraise for</h2>
+                    <span style = "color:white;">Yourself</span>
+                    <a href="#" class="btn">Start Now</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="arrow5.png" alt="">
+                    </div>
+                    <h2 style = "color:white;">Fundraise for</h2>
+                    <span style = "color:white;">Friends & Family</span>
+                    <a href="#" class="btn">Start Now</a>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="arrow5.png" alt="">
+                    </div>
+                    <h2 style = "color:white;">Fundraise for</h2>
+                    <span style = "color:white;">Charity</span>
+                    <a href="#" class="btn">Start Now</a>
+                </div>
+            </div> 
+        </section>
+<!-----------------------------contact------------------------------------->
+
+    </body>
+</html>
